@@ -1,1 +1,3 @@
 # PHPWebPro
+这个WEB项目是帮某公司做的门户网站，使用PHP开发，用到了ThinkPH框架，这里的代码包括前后台的所有代码以及数据库文件。
+运行环境：windows 下安装WAMPServer,community文件夹放到WWW目录下，并导入database里的community.sql文件
