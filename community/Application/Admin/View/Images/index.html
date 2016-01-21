@@ -1,0 +1,92 @@
+<include file="Public/header" title="图片列表" />
+
+<div id="page-wrapper">
+   
+    <div class="row">
+        <div class="col-md-6">
+            <a href="{:U('Images/add')}" class="btn btn-success">添加图片</a>
+        </div>
+        <div class="col-md-6">
+            <form action="{:U('Images/index')}" method="post">
+                <div class="form-group input-group">
+                    <input type="text" class="form-control" name="key" placeholder="输入图片名称或模块名称关键词搜索">
+                    <span class="input-group-btn">
+                      <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+                    </span>
+                </div>
+            </form>
+        </div>
+    </div>
+    <table class="table table-hover table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>编号</th> 
+				<th>图片名称</th> 
+				<th>所在部位</th>
+				<th>启用状态</th>                       
+                <th>添加时间</th>
+                <th>添加人</th>               
+                <th>操作</th> 
+            </tr>
+        </thead>
+        <tbody>
+        <foreach name="model" item="v">
+            <tr>
+                <td>{$v.id}</td>
+				<td>{$v.name}</td>
+				<td>{$v.module_name}</td>
+				<td>
+                    <if condition="$v.status eq 0"><span class="label label-success">禁止</span>
+                    <elseif condition="$v.status eq 1" /><span class="label label-info">启用</span>                   
+                    </if>
+                </td>
+                <td>{$v.time|date="Y/m/d H:i:s",###}</td>                            
+                <td>{$v.username}</td>
+                <td><a href="{:U('Images/update?id=')}{$v.id}" >查看</a> | <a href="{:U('Images/delete?id=')}{$v.id}" style="color:red;" onclick="javascript:return del('您真的确定要删除吗？\n\n删除后将不能恢复!');">删除</a></td>             
+            </tr>
+        </foreach>
+        </tbody>
+    </table>
+    <div class="clearfix"></div>
+    {$page}
+
+</div>
+
+<include file="Public/footer" />
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="__PUBLIC__/js/jquery/jquery-1.11.3.js"></script>
+	<!-- 引入uploadify的js代码 -->
+	<script src="__PUBLIC__/uploadify/jquery.uploadify.min.js"></script>
+
+	<!-- 复制专用插件 -->
+	<script src="__PUBLIC__/js/jquery.zclip/jquery.zclip.js"></script>
+	<!-- 引入livequery 用于新增对象方法绑定 -->
+	<script src="__PUBLIC__/js/jquery.livequery.js"></script>
+<script type="text/javascript">
+//    function lookimage(url)
+//	{
+//		
+//		alert(url);
+//		$('#modal').modal('show');		
+//	    $('#img_show').attr('src',url);
+//	}
+//	$(function() {
+//            
+//			//图片放大预览
+//			$(document).on('click', '.img', function(event) {
+//				alert(1);
+//				event.preventDefault();
+//				/* Act on the event */
+//				$('#modal2').modal('show');
+//				alert(2);
+//				var img_url=$(this).attr('src');
+//				
+//				$('#img_show').attr('src',img_url);
+//			});
+//			
+//			//点击modal自动隐藏
+//			$('#modal').click(function(event) {
+//				$(this).modal('hide');
+//			});
+//		});		
+</script>

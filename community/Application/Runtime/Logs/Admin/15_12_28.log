@@ -1,0 +1,195 @@
+[ 2015-12-28T14:52:47+08:00 ] ::1 /community/admin.php?m=Admin&c=Aboutus&a=index
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 La table 'community.centerinstruction' n'existe pas
+
+[ 2015-12-28T14:52:59+08:00 ] ::1 /community/admin.php?m=Admin&c=Aboutus&a=index
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 La table 'community.centerinstruction' n'existe pas
+
+[ 2015-12-28T14:53:38+08:00 ] ::1 /community/admin.php?m=Admin&c=Aboutus&a=index
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 La table 'community.centerinstruction' n'existe pas
+
+[ 2015-12-28T14:58:19+08:00 ] ::1 /community/admin.php?m=Admin&c=Aboutus&a=index
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 La table 'community.centerinstruction' n'existe pas
+
+[ 2015-12-28T15:00:24+08:00 ] ::1 /community/admin.php?m=Admin&c=Aboutus&a=index
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 La table 'community.centerinstruction' n'existe pas
+
+[ 2015-12-28T15:38:35+08:00 ] ::1 /community/admin.php?m=Admin&c=Workhouse&a=index
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'communitymembers.user_id' inconnu dans on clause
+
+[ 2015-12-28T15:45:27+08:00 ] ::1 /community/admin.php?m=Admin&c=Workhouse&a=index
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'communitymembers.user_id' inconnu dans on clause
+
+[ 2015-12-28T15:55:27+08:00 ] ::1 /community/admin.php?m=Admin&c=Workhouse&a=index
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'communitymembers.user_id' inconnu dans on clause
+
+[ 2015-12-28T15:55:29+08:00 ] ::1 /community/admin.php?m=Admin&c=Workhouse&a=index
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'communitymembers.user_id' inconnu dans on clause
+
+[ 2015-12-28T16:26:36+08:00 ] ::1 /community/admin.php?m=Admin&c=Images&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-12-28T16:26:51+08:00 ] ::1 /community/admin.php?m=Admin&c=Images&a=del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-12-28T16:55:16+08:00 ] ::1 /community/admin.php?m=Admin&c=Workhouse&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-12-28T16:56:23+08:00 ] ::1 /community/admin.php?m=Admin&c=Workhouse&a=del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] unlink(): Invalid argument D:\important\wampserver\wamp\www\community\Application\Admin\Controller\WorkhouseController.class.php 第 131 行.
+
+[ 2015-12-28T16:56:26+08:00 ] ::1 /community/admin.php?m=Admin&c=Workhouse&a=del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] unlink(): Invalid argument D:\important\wampserver\wamp\www\community\Application\Admin\Controller\WorkhouseController.class.php 第 131 行.
+
+[ 2015-12-28T16:56:30+08:00 ] ::1 /community/admin.php?m=Admin&c=Workhouse&a=del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] unlink(): Invalid argument D:\important\wampserver\wamp\www\community\Application\Admin\Controller\WorkhouseController.class.php 第 131 行.
+
+[ 2015-12-28T16:56:36+08:00 ] ::1 /community/admin.php?m=Admin&c=Workhouse&a=changeName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: dirname D:\important\wampserver\wamp\www\community\Application\Admin\Controller\WorkhouseController.class.php 第 155 行.
+NOTIC: [8] Undefined index: extension D:\important\wampserver\wamp\www\community\Application\Admin\Controller\WorkhouseController.class.php 第 156 行.
+
+[ 2015-12-28T16:56:42+08:00 ] ::1 /community/admin.php?m=Admin&c=Workhouse&a=del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] unlink(): Invalid argument D:\important\wampserver\wamp\www\community\Application\Admin\Controller\WorkhouseController.class.php 第 131 行.
+
+[ 2015-12-28T17:02:52+08:00 ] ::1 /community/admin.php?m=Admin&c=Workhouse&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-12-28T17:03:00+08:00 ] ::1 /community/admin.php?m=Admin&c=Workhouse&a=changeName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-28T17:06:08+08:00 ] ::1 /community/admin.php?m=Admin&c=Workhouse&a=del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-12-28T17:06:30+08:00 ] ::1 /community/admin.php?m=Admin&c=Workhouse&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-12-28T17:06:38+08:00 ] ::1 /community/admin.php?m=Admin&c=Workhouse&a=changeName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-12-28T17:58:22+08:00 ] ::1 /community/admin.php?m=Admin&c=Workhouse&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-12-28T18:26:48+08:00 ] ::1 /community/admin.php?m=Admin&c=Workhouse&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-12-28T18:51:39+08:00 ] ::1 /community/admin.php?m=Admin&c=Workhouse&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-12-28T18:57:45+08:00 ] ::1 /community/admin.php?m=Admin&c=Workhouse&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-12-28T19:08:16+08:00 ] ::1 /community/admin.php?m=Admin&c=Workhouse&a=index
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'communitymembers.user_id' inconnu dans on clause
+
+[ 2015-12-28T19:08:18+08:00 ] ::1 /community/admin.php?m=Admin&c=Workhouse&a=index
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'communitymembers.user_id' inconnu dans on clause
+
+[ 2015-12-28T19:08:21+08:00 ] ::1 /community/admin.php?m=Admin&c=Workhouse&a=index
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'communitymembers.user_id' inconnu dans on clause
+
+[ 2015-12-28T19:08:22+08:00 ] ::1 /community/admin.php?m=Admin&c=Workhouse&a=index
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'communitymembers.user_id' inconnu dans on clause
+
+[ 2015-12-28T19:08:23+08:00 ] ::1 /community/admin.php?m=Admin&c=Workhouse&a=index
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'communitymembers.user_id' inconnu dans on clause
+
+[ 2015-12-28T19:52:20+08:00 ] ::1 /community/admin.php?m=Admin&c=Workhouse&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-12-28T20:08:59+08:00 ] ::1 /community/admin.php?m=Admin&c=Workhouse&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-12-28T20:16:19+08:00 ] ::1 /community/admin.php?m=Admin&c=Workhouse&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-12-28T20:16:54+08:00 ] ::1 /community/admin.php?m=Admin&c=Workhouse&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-12-28T20:17:25+08:00 ] ::1 /community/admin.php?m=Admin&c=Workhouse&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-12-28T20:19:07+08:00 ] ::1 /community/admin.php?m=Admin&c=Workhouse&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-12-28T20:19:33+08:00 ] ::1 /community/admin.php?m=Admin&c=Workhouse&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-12-28T20:19:59+08:00 ] ::1 /community/admin.php?m=Admin&c=Workhouse&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-12-28T20:20:36+08:00 ] ::1 /community/admin.php?m=Admin&c=Workhouse&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+

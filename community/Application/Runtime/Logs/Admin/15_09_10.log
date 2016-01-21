@@ -1,0 +1,6 @@
+[ 2015-09-10T16:32:44+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+

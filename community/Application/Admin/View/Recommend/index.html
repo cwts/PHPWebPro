@@ -1,0 +1,45 @@
+<include file="Public/header" title="特别推荐列表" />
+<div id="page-wrapper">
+    
+    <div class="row">
+        <div class="col-md-6">
+            <a href="{:U('Recommend/add')}" class="btn btn-success">添加推荐</a>
+        </div>
+        <div class="col-md-6">
+            <form action="{:U('Recommend/index')}" method="post">
+                <div class="form-group input-group">
+                    <input type="text" class="form-control" name="key" placeholder="输入推荐标题、推荐人关键词搜索">
+                    <span class="input-group-btn">
+                      <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+                    </span>
+                </div>
+            </form>
+        </div>
+    </div>
+    <table class="table table-hover table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>编号</th>
+                <th>推荐标题</th>           
+                <th>推荐时间</th>
+                <th>推荐人</th>               
+                <th>操作</th> 
+            </tr>
+        </thead>
+        <tbody>
+        <foreach name="model" item="v">
+            <tr>
+                <td>{$v.id}</td>
+                <td>{$v.title}</td>             
+                <td>{$v.time|date="Y/m/d H:i:s",###}</td>
+                <td>{$v.username}</td>            
+                <td><a href="{:U('Recommend/update?id=')}{$v.id}">编辑</a> | <a href="{:U('Recommend/delete?id=')}{$v.id}" style="color:red;" onclick="javascript:return del('您真的确定要删除吗？\n\n删除后将不能恢复!');">删除</a></td>
+            </tr>
+        </foreach>
+        </tbody>
+    </table>
+    <div class="clearfix"></div>
+    {$page}
+    
+</div>
+<include file="Public/footer" />

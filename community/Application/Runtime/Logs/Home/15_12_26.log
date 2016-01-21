@@ -1,0 +1,27 @@
+[ 2015-12-26T15:31:39+08:00 ] 180.161.18.237 /index.php?m=&c=PublicMap&a=getPoint
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001726s ]
+SQL: SELECT * FROM `publicmap`  [ RunTime:0.0006s ]
+
+[ 2015-12-26T15:32:27+08:00 ] 180.161.18.237 /index.php?m=&c=Publicmap&a=index
+ERR: 无法加载控制器:Publicmap
+
+[ 2015-12-26T15:32:29+08:00 ] 180.161.18.237 /index.php?m=&c=PublicMap&a=getPoint
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001719s ]
+SQL: SELECT * FROM `publicmap`  [ RunTime:0.0006s ]
+
+[ 2015-12-26T19:09:17+08:00 ] 180.161.18.237 /index.php?m=&c=PublicMap&a=getPoint
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001413s ]
+SQL: SELECT * FROM `publicmap`  [ RunTime:0.0006s ]
+
+[ 2015-12-26T20:07:27+08:00 ] 180.161.18.237 /index.php?m=&c=PublicMap&a=getPoint
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003413s ]
+SQL: SELECT * FROM `publicmap`  [ RunTime:0.0129s ]
+

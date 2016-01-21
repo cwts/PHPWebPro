@@ -1,0 +1,20 @@
+<include file="Public/header" title="组织架构详细信息" />
+<div id="page-wrapper">
+   
+        <div class="form-group">
+            <label for="post-content">组织架构</label>
+            <div style="height:600;width:auto;border-style:solid;border-width:1px;overflow:scroll;">{$post.content|htmlspecialchars_decode}</div>          
+        </div>
+        <div class="form-group">
+            <label for="post-title">上次修改时间</label>
+            <input type="text" name="time" class="form-control" value="{$post.time|date="Y/m/d H:i:s",###}" readonly="readonly" >
+        </div>
+		<div class="form-group">
+            <label for="post-title">上次修改人</label>
+            <input type="text" name="user_name" class="form-control" value="{$post.user_name}" readonly="readonly">
+        </div>
+         <a href="{:U('Organization/update?id=')}{$post.id}" class="btn btn-success">修改</a>   
+</div>
+
+
+<include file="Public/footer" />

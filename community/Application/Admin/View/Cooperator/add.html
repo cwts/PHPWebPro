@@ -1,0 +1,280 @@
+<include file="Public/header" title="添加合作机构" />
+  <style>
+		.img_box{
+			padding: 9px 14px;
+			margin-bottom: 14px;
+			background-color: #f7f7f9;
+			border: 1px solid #e1e1e8;
+			border-radius: 4px;
+			min-height:260px;
+		}		
+		.img{			
+			text-align:center;			
+			display: inline-block;
+			margin: auto;
+			
+			max-height: 260px;
+			padding: 4px;			
+			background-color: #fff;
+			border: 1px solid #ddd;
+			border-radius: 4px;		
+		}
+		.img_ctrl{
+			text-align:center;			
+			display: inline-block;
+			/*position: absolute;*/
+			width: 100%;
+			/*height: auto;*/
+			padding: 1px;			
+			background-color: #fff;
+			border: 1px solid #ddd;
+			border-radius: 4px;
+			margin-bottom: 4px;
+		}
+		.img_name{			
+			display:none;			
+			position:absolute;
+			z-index: 2;
+		}
+		.modal-content{
+			text-align: center;
+		}
+		#img_show{
+			max-width: 100%;
+		}
+		#fileselect{
+			display:none;
+		}
+    </style>
+<div id="page-wrapper">
+	   <div class="form-group">  		
+    		<button class="btn btn-primary" id="selsect">请上传机构照片</button>
+    		<input type="file" id="fileselect" class="form-control" name="fileselect[]" multiple="multiple"/> 
+       </div> 
+	   <div class="form-group row img_box" id="img_box">		   	
+       </div>
+    <form method="post" action="{:U('Cooperator/add')}">
+    	<div class="form-group">
+			 <input type="text" name="photo" class="form-control" id="photo" style="display:none">
+			 <input type="text" name="photoname" class="form-control" id="photoname" style="display:none">
+        </div>
+        <div class="form-group">
+            <label for="Cooperator-title">机构名称</label>
+            <input type="text" name="title" class="form-control" id="Cooperator-title" placeholder="输入机构名称">
+        </div>
+        <div class="form-group" >
+            <label for="Cooperator-content">相关内容</label>
+            <script id="Cooperator-content" name="content" type="text/plain"></script>
+        </div>
+        
+        <button type="submit"  class="btn btn-default">提交</button>
+    </form>
+</div>
+ <div class="modal fade bs-example-modal-lg" id="modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-lg">
+	    <div class="modal-content">
+	    	<!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> -->
+	    	<img id="img_show" src="" alt="">
+	    </div>
+	  </div>
+</div>
+
+<!-- 配置文件 -->
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="__PUBLIC__/js/jquery/jquery-1.11.3.js"></script>
+	<!-- 引入uploadify的js代码 -->
+	<script src="__PUBLIC__/uploadify/jquery.uploadify.min.js"></script>
+
+	<!-- 复制专用插件 -->
+	<script src="__PUBLIC__/js/jquery.zclip/jquery.zclip.js"></script>
+	<!-- 引入livequery 用于新增对象方法绑定 -->
+	<script src="__PUBLIC__/js/jquery.livequery.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/ueditor/ueditor.config.js"></script>
+<!-- 编辑器源码文件 -->
+<script type="text/javascript" src="__PUBLIC__/ueditor/ueditor.all.js"></script>
+<!-- 实例化编辑器 -->
+<script type="text/javascript">
+   // alert(1);
+//	$(document).ready(function(){
+//		$("#ww").click(function(){
+//			alert('哈哈')
+//		});
+//	});
+    var ue = UE.getEditor('Cooperator-content',{
+        toolbars: [
+            ['fullscreen', 'source', 'undo', 'redo','bold', 'italic', 'underline','fontborder', 'strikethrough', '|','simpleupload', 'insertimage','attachment','emotion','link','unlink', '|', 'removeformat', 'formatmatch', 'autotypeset', 'blockquote','searchreplace', 'pasteplain', '|', 'forecolor', 'backcolor', 'insertorderedlist', 'insertunorderedlist', 'selectall', 'cleardoc'],
+            ['inserttable','insertrow', 'insertcol','mergeright', 'mergedown','deleterow', 'deletecol','splittorows','splittocols', 'splittocells','deletecaption','inserttitle', 'mergecells', 'deletetable','insertparagraphbeforetable', 'paragraph','fontsize','fontfamily']
+        ],
+        initialFrameHeight:350,
+        zIndex:100
+    });
+	
+	 $('#selsect').click(function(event) {
+				//alert(1);
+				$('#fileselect').click();
+			});			
+			//选择文件
+			$('#fileselect').change(function(event) {			
+		        event.preventDefault();
+		        var n=event.target.files.length;		        
+		        var file;		        
+				for (var i = 0; i < n; i++) {
+					file=event.target.files[i];
+					html5up(file);
+				};						        
+			});	
+			//上传操作
+			function html5up(file){
+				/* Act on the event */
+				//alert(1);
+				var form_data=new FormData();				
+				form_data.append('timestamp',"{$time}");
+				form_data.append('token','{:md5("unique_salt".$time)}');
+				form_data.append("Filedata",file);							
+				$.ajax({
+					url: '{:U("Cooperator/upload",null,false)}',
+					type: 'POST',
+					// dataType: 'default: Intelligent Guess (Other values: xml, json, script, or html)',
+					processData: false,
+					contentType: false,
+					data: form_data,
+				})
+				.done(function(data) {
+					// alert(data.savepath);					
+		            if (!data.status) {
+		            	alert(data.info);
+		            	return false;
+		            };		            
+		            put_img(data.savepath,data.savename);//添加图片到img_box		           
+		            var photoname=data.savename;
+		            $('#photoname').val(photoname);
+                    //alert($('#photoname').val());
+					var photo="__ROOT__"+data.savepath+data.savename;
+		            $('#photo').val(photo);
+					//alert($('#photo').val());
+					console.log("success");
+				})
+				.fail(function() {
+					console.log("error");
+				})
+				.always(function() {
+					console.log("complete");
+				});
+			
+			}	
+			
+
+
+			//添加图片到img_box
+			function put_img(savepath,savename){
+				var img_url="__ROOT__"+savepath+savename;		
+				//alert(img_url);
+				var new_img='<div class="col-md-3">';					
+		            new_img+='<img src="'+img_url+'" alt="test" class="img">';
+		            new_img+='<div class="img_ctrl">';
+		           
+		            new_img+='<span class="glyphicon glyphicon-trash btn" data-toggle="tooltip" data-placement="bottom"  title="删除文件" aria-hidden="true"></span>';
+		            new_img+='<span class="glyphicon glyphicon-tag btn" data-toggle="tooltip" data-placement="bottom" title="修改标题" aria-hidden="true"></span>';
+		            new_img+='</div>';
+		            new_img+='<div class="img_name">';
+	    			new_img+='<form action="" class="form-inline">';
+	    			new_img+='<input type="text" class="form-control input-sm savename" value="'+savename+'">';
+	    			new_img+='<button class="btn btn-primary btn-sm save inline-block">保存</button>';
+	    			new_img+='</form>';
+	    			new_img+='</div>';
+		            new_img+='</div>';
+            
+		            $('.img_box').append(new_img);
+			}
+
+
+
+			//调出修改标题input
+			$(document).on('click','.glyphicon-tag',function(event){				
+				var div=$(this).parents('div.col-md-3');
+				var img_name=div.find('.img_name');
+				img_name.fadeToggle();
+			});
+
+			//点击保存按钮
+			$(document).on('click','.save',function(event){
+				event.preventDefault();
+				var img_name=$(this).parents('.img_name');
+				var savename=img_name.find('.savename');
+				var new_name=savename.val();
+			   
+				var img=$(this).parents('div.col-md-3').find('.img');
+				var img_url=img.attr('src');
+				// alert(img_url);
+				$.ajax({
+					url: '{:U("Cooperator/changeName",null,false)}',
+					type: 'POST',
+					// dataType: 'default: Intelligent Guess (Other values: xml, json, script, or html)',
+					data: {url:img_url,name:new_name},
+					success:function(data){
+//						var data = $.parseJSON(data);
+//						alert(data);return false;
+						if (!data['status']) {
+							alert(data['info']);
+							return false;
+						};
+						savename.val(data['savename']);
+						//alert(data['savename']);
+						//alert(data['savepath']);
+						img.attr('src',"__ROOT__"+data['savepath']);
+						img_name.fadeOut('slow');
+						var photoname=data.savename;
+		                $('#photoname').val(photoname);
+					  // alert($('#photoname').val());
+				     	var photo="__ROOT__"+data.savepath;
+		                $('#photo').val(photo);
+				     	//alert($('#photo').val());
+					}
+				});
+
+			});
+
+			
+			//图片删除
+			$(document).on('click', '.glyphicon-trash', function(event) {
+				//alert(1);
+				event.preventDefault();
+				/* Act on the event */
+				var div=$(this).parents('div.col-md-3');
+				var img_url=div.find('.img').attr('src');
+			    //alert(img_url);
+				$.ajax({
+					url: '{:U("Cooperator/del",null,false)}',
+					type: 'POST',
+					// dataType: 'default: Intelligent Guess (Other values: xml, json, script, or html)',
+					data: {url: img_url},
+					success:function(data){
+						if (!data['status']) {
+							alert(data['info']);
+							return false;
+						}else{
+							alert(data['info']);
+							div.fadeOut(2000);
+							div.remove();
+						};
+					}
+				});			
+				
+			});
+
+			//图片放大预览
+			$(document).on('click', '.img', function(event) {
+				
+				event.preventDefault();
+				/* Act on the event */
+				var img_url=$(this).attr('src');
+				$('#modal').modal('show');
+				$('#img_show').attr('src',img_url);
+			});
+			
+			//点击modal自动隐藏
+			$('#modal').click(function(event) {
+				$(this).modal('hide');
+			});
+</script>
+<include file="Public/footer" />

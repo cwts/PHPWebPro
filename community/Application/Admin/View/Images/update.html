@@ -1,0 +1,71 @@
+<include file="Public/header" title="查看图片" />
+ <style>
+		.img_box{
+			padding: 9px 14px;
+			margin-bottom: 14px;
+			background-color: #f7f7f9;
+			border: 1px solid #e1e1e8;
+			border-radius: 4px;
+			min-height:260px;
+		}		
+		
+		.img{			
+			text-align:center;			
+			display: inline-block;
+			margin: auto;			
+			max-height: 260px;			
+			padding: 4px;			
+			background-color: #fff;
+			border: 1px solid #ddd;
+			border-radius: 4px;		
+		}
+
+    </style>
+<div id="page-wrapper">
+    <form method="post" action="{:U('Images/update')}">
+        <div class="form-group">
+            <label for="post-title">图片名称</label>
+            <input type="text" name="name" class="form-control" value="{$post.name}" id="post-title" readonly="readonly">
+        </div>
+
+        <div class="form-group row img_box">       
+           <img id="img_show" src="{$post.url}" alt="test" class="img">     
+		   <input type="text" name="url" class="form-control" value="{$post.url}" style="display:none">    
+        </div>
+          <div class="form-group">
+            <label for="project-cate">所在模块</label>
+            <select name="location" id="project-cate" class="form-control">
+                <foreach name="category" item="v">
+                    <option value="{$v.id}" <?php if($post['location'] == $v['id']) {echo 'selected="selected"' ;}?> >{$v.name}</option>
+                </foreach>
+            </select>
+        </div>
+         <div class="form-group">
+            <label>启用状态</label>
+            <label class="radio-inline">
+              <input type="radio" name="status"  id="status" value="0" <if condition="$post.status eq 0">checked="checked"</if> >禁止
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="status"  id="status" value="1" <if condition="$post.status eq 1">checked="checked"</if>>启用
+            </label>
+        </div>
+		<input type="hidden" name="id" value="{$post.id}">
+        <button type="submit" class="btn btn-default">提交</button>
+    </form>
+</div>
+<!-- 配置文件 -->
+<script type="text/javascript" src="__PUBLIC__/ueditor/ueditor.config.js"></script>
+<!-- 编辑器源码文件 -->
+<script type="text/javascript" src="__PUBLIC__/ueditor/ueditor.all.js"></script>
+<!-- 实例化编辑器 -->
+<script type="text/javascript">
+    var ue = UE.getEditor('post-content',{
+        toolbars: [
+            ['fullscreen', 'source', 'undo', 'redo','bold', 'italic', 'underline','fontborder', 'strikethrough', '|','simpleupload', 'insertimage','attachment','emotion','link','unlink', '|', 'removeformat', 'formatmatch', 'autotypeset', 'blockquote','searchreplace', 'pasteplain', '|', 'forecolor', 'backcolor', 'insertorderedlist', 'insertunorderedlist', 'selectall', 'cleardoc'],
+            ['inserttable','insertrow', 'insertcol','mergeright', 'mergedown','deleterow', 'deletecol','splittorows','splittocols', 'splittocells','deletecaption','inserttitle', 'mergecells', 'deletetable','insertparagraphbeforetable', 'paragraph','fontsize','fontfamily']
+        ],
+        initialFrameHeight:500,
+        zIndex:100
+    });
+</script>
+<include file="Public/footer" />

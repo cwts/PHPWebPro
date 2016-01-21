@@ -1,0 +1,6 @@
+[ 2015-09-30T14:32:55+08:00 ] 127.0.0.1 /community/index.php?m=&c=special_recommendation&a=contentdisplay?id=10
+ERR: 非法操作:contentdisplay?id=10
+
+[ 2015-09-30T14:33:32+08:00 ] 127.0.0.1 /community/index.php?m=&c=special_recommendation&a=contentdisplay?id=10
+ERR: 非法操作:contentdisplay?id=10
+

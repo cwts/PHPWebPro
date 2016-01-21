@@ -1,0 +1,15 @@
+[ 2015-10-04T16:02:14+08:00 ] 127.0.0.1 /community/admin.php?m=admin&c=publicmap&a=index
+ERR: 无法加载控制器:Publicmap
+
+[ 2015-10-04T16:18:14+08:00 ] 127.0.0.1 /community/admin.php?m=admin&c=public_map&a=index
+ERR: 无法加载控制器:PublicMap
+
+[ 2015-10-04T16:18:48+08:00 ] 127.0.0.1 /community/admin.php?m=admin&c=public_map&a=index
+ERR: 无法加载控制器:PublicMap
+
+[ 2015-10-04T16:19:04+08:00 ] 127.0.0.1 /community/admin.php?m=admin&c=publicmap&a=index
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'community.public_map_view' doesn't exist
+
+[ 2015-10-04T16:35:21+08:00 ] 127.0.0.1 /community/admin.php?m=admin&c=publicmap&a=index
+ERR: 无法加载控制器:Publicmap
+

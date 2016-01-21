@@ -1,0 +1,50 @@
+<include file="Public/header" title="社工之家列表" />
+<div id="page-wrapper">
+    
+    <div class="row">
+        <div class="col-md-6">
+            <a href="{:U('Workhouse/add')}" class="btn btn-success">添加</a>
+        </div>
+        <div class="col-md-6">
+            <form action="{:U('Workhouse/index')}" method="post">
+                <div class="form-group input-group">
+                    <input type="text" class="form-control" name="key" placeholder="输入社工姓名关键词搜索">
+                    <span class="input-group-btn">
+                      <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+                    </span>
+                </div>
+            </form>
+        </div>
+    </div>
+    <table class="table table-hover table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>编号</th>
+                <th>社工姓名</th>               
+                <th>职务职称</th>
+                <th>专业方向</th>            
+                <th>专业资质</th> 
+				<th>从业年限</th>            
+                <th>操作</th> 
+            </tr>
+        </thead>
+        <tbody>
+        <foreach name="model" item="v">
+            <tr>
+                <td>{$v.id}</td>
+                <td>{$v.name}</td>
+                <td>{$v.duty}</td>
+                <td>{$v.major}</td>
+                <td>{$v.qualification}</td>
+                <td>{$v.year}</td>
+             
+                <td><a href="{:U('Workhouse/update?id=')}{$v.id}">编辑</a> | <a href="{:U('Workhouse/delete?id=')}{$v.id}" style="color:red;" onclick="javascript:return del('您真的确定要删除吗？\n\n删除后将不能恢复!');">删除</a></td>
+            </tr>
+        </foreach>
+        </tbody>
+    </table>
+    <div class="clearfix"></div>
+    {$page}
+    
+</div>
+<include file="Public/footer" />

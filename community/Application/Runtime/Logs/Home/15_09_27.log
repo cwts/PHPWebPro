@@ -1,0 +1,15 @@
+[ 2015-09-27T14:49:22+08:00 ] 127.0.0.1 /community/index.php?m=&c=public_map&a=index
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'community.post_view' doesn't exist
+
+[ 2015-09-27T16:25:27+08:00 ] 127.0.0.1 /community/index.php?m=&c=public_map&a=index
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'community.post_view' doesn't exist
+
+[ 2015-09-27T16:25:52+08:00 ] 127.0.0.1 /community/index.php?m=&c=public_map&a=index
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'community.post_view' doesn't exist
+
+[ 2015-09-27T16:26:07+08:00 ] 127.0.0.1 /community/index.php?m=&c=public_map&a=index
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'community.post_view' doesn't exist
+
+[ 2015-09-27T16:26:24+08:00 ] 127.0.0.1 /community/index.php?m=&c=public_map&a=index
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'community.post_view' doesn't exist
+

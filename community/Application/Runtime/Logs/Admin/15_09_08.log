@@ -1,0 +1,365 @@
+[ 2015-09-08T10:41:45+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=index
+ERR: 无法加载控制器:Images
+
+[ 2015-09-08T10:41:46+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=index
+ERR: 无法加载控制器:Images
+
+[ 2015-09-08T13:25:27+08:00 ] ::1 /community2/admin.php?m=Admin&c=Index&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-08T14:19:47+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-09-08T14:23:19+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-09-08T14:29:50+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-09-08T14:35:11+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-09-08T14:36:07+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-09-08T14:37:23+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-08T14:37:57+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-08T14:39:21+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-09-08T14:45:27+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-09-08T14:50:45+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-09-08T14:52:11+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-09-08T14:54:13+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-09-08T14:57:08+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-09-08T15:04:35+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-09-08T15:20:01+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-09-08T15:27:13+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-09-08T15:27:18+08:00 ] ::1 /community2/admin.php?m=Admin&c=Index&a=del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:del
+
+[ 2015-09-08T15:27:21+08:00 ] ::1 /community2/admin.php?m=Admin&c=Index&a=del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:del
+
+[ 2015-09-08T15:27:23+08:00 ] ::1 /community2/admin.php?m=Admin&c=Index&a=del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 非法操作:del
+
+[ 2015-09-08T15:27:58+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-09-08T15:28:02+08:00 ] ::1 /community2/admin.php?m=Admin&c=Index&a=del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:del
+
+[ 2015-09-08T15:29:12+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-09-08T15:29:20+08:00 ] ::1 /community2/admin.php?m=Admin&c=Index&a=del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:del
+
+[ 2015-09-08T15:29:25+08:00 ] ::1 /community2/admin.php?m=Admin&c=Index&a=del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:del
+
+[ 2015-09-08T15:29:29+08:00 ] ::1 /community2/admin.php?m=Admin&c=Index&a=del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:del
+
+[ 2015-09-08T15:30:02+08:00 ] ::1 /community2/admin.php?m=Admin&c=Index&a=del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:del
+
+[ 2015-09-08T15:30:08+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-09-08T15:30:13+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-08T15:30:18+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-08T15:33:45+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-09-08T15:33:51+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-08T15:34:24+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-09-08T15:34:29+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-08T15:36:23+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-09-08T15:36:28+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-08T15:39:50+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-09-08T15:50:02+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-09-08T15:50:17+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=changeName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-08T15:51:24+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=changeName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-08T15:52:28+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=del
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-08T15:52:49+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-09-08T15:53:02+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=changeName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-08T15:55:51+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-09-08T15:56:04+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=changeName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-08T15:57:02+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=changeName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-08T15:57:09+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=changeName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-08T16:16:26+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-09-08T16:17:44+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-09-08T16:19:03+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-09-08T16:20:01+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-09-08T16:20:39+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-09-08T16:38:08+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-09-08T16:42:44+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-09-08T16:42:59+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=changeName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-08T16:43:05+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=changeName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-08T16:45:22+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-09-08T16:45:32+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=changeName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-08T17:10:39+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=delete&id=16
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'url' inconnu dans field list
+
+[ 2015-09-08T20:05:57+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-09-08T20:39:43+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-09-08T20:39:52+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=changeName
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-08T20:41:36+08:00 ] ::1 /community2/admin.php?m=Admin&c=Images&a=upload
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\important\wampserver\wamp\www\community2\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+

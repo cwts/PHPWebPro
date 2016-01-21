@@ -1,0 +1,24 @@
+[ 2015-10-04T15:49:10+08:00 ] 127.0.0.1 /community/index.php?m=&c=public_map&a=index
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'community.post_view' doesn't exist
+
+[ 2015-10-04T15:49:13+08:00 ] 127.0.0.1 /community/index.php?m=&c=public_map&a=index
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'community.post_view' doesn't exist
+
+[ 2015-10-04T15:52:17+08:00 ] 127.0.0.1 /community/index.php?m=&c=public_map&a=index
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'community.post_view' doesn't exist
+
+[ 2015-10-04T15:52:29+08:00 ] 127.0.0.1 /community/index.php?m=&c=public_map&a=index
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'community.post_view' doesn't exist
+
+[ 2015-10-04T15:52:41+08:00 ] 127.0.0.1 /community/index.php?m=&c=public_map&a=index
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'community.post_view' doesn't exist
+
+[ 2015-10-04T15:52:46+08:00 ] 127.0.0.1 /community/index.php?m=&c=publicmap&a=index
+ERR: 无法加载控制器:Publicmap
+
+[ 2015-10-04T15:52:59+08:00 ] 127.0.0.1 /community/index.php?m=&c=public_map&a=index
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'community.post_view' doesn't exist
+
+[ 2015-10-04T16:24:48+08:00 ] 127.0.0.1 /community/index.php?m=&c=publicmap&a=index
+ERR: 无法加载控制器:Publicmap
+

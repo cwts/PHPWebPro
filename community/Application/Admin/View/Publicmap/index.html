@@ -1,0 +1,50 @@
+<include file="Public/header" title="公益地图列表" />
+<div id="page-wrapper">
+    
+    <div class="row">
+        <div class="col-md-6">
+            <a href="{:U('Publicmap/add')}" class="btn btn-success">添加坐标点</a>
+        </div>
+        <div class="col-md-6">
+            <form action="{:U('Publicmap/index')}" method="post">
+                <div class="form-group input-group">
+                    <input type="text" class="form-control" name="key" placeholder="输入公益地图点、发布人关键词搜索">
+                    <span class="input-group-btn">
+                      <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+                    </span>
+                </div>
+            </form>
+        </div>
+    </div>
+    <table class="table table-hover table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>编号</th>
+                <th>标题</th>
+               
+                <th>发布时间</th>
+                <th>发布人</th>
+                <th>坐标</th>
+                <th>操作</th> 
+            </tr>
+        </thead>
+        <tbody>
+        <foreach name="model" item="v">
+            <tr>
+                <td>{$v.id}</td>
+                <td>{$v.title}</td>
+               
+                <td>{$v.time|date="Y/m/d H:i:s",###}</td>
+                <td>{$v.username}</td>
+				<td>{$v.coordinate}</td>
+             
+                <td><a href="{:U('Publicmap/update?id=')}{$v.id}">编辑</a> | <a href="{:U('Publicmap/delete?id=')}{$v.id}" style="color:red;" onclick="javascript:return del('您真的确定要删除吗？\n\n删除后将不能恢复!');">删除</a></td>
+            </tr>
+        </foreach>
+        </tbody>
+    </table>
+    <div class="clearfix"></div>
+    {$page}
+    
+</div>
+<include file="Public/footer" />

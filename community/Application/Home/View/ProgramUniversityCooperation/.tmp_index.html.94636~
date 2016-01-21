@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>资源环境社区院网--* * 社区</title>
+	<meta name="renderer" content="webkit">
+	<meta name="keywords content="* * 社区,资源环境社区,环境工程,环境科学,资源环境科学,地理信息技术,生态学,测绘工程">
+	<meta name="author" content="LinSimon">
+	<meta name="link" content="boyu624@163.com">
+	<meta name="description" content="* * 社区资源环境社区官方网站">
+	
+    <!-- Bootstrap -->
+    <link href="__PUBLIC__/bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="__PUBLIC__/js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="__PUBLIC__/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+	<style>
+	.carousel_border{
+		border:0px solid red
+	}
+	.navbar_style{
+		text-align:center;
+		border:1px solid white;
+		background-color:black;
+	}
+	.float_right{
+		float:right;position:relative;
+	}
+	.footer_style{
+		margin-top:5px;
+		background-color:#c0153f;
+	}
+	.margin_style{
+		margin-top:10px;
+	}
+	#txt{
+	 height:200px; 
+	 position:relative  
+
+	} 
+	body{
+		background-color:#dddddd;
+	}
+	hr{
+	   height:2px;
+	}
+	#txt form{ 
+	 position:absolute; 
+	 bottom:20px; 
+	 right:0px;
+	 padding:0px; 
+	 margin:0px 
+	} 
+	img{
+    max-width:100%;
+	height:auto;
+    }
+	  #topnav > li{display:inline;}
+	  .nav-pills > li a { color:white; background-color:rgb(192,21,63);}
+	  .nav-pills > li a:hover { color:rgb(192,21,63); background-color:white;}
+	  .nav-pills> li .dropdown-menu { margin: 0; }
+      .nav-pills > li:hover .dropdown-menu { display: block; }
+	</style>
+	<script type="text/javascript">
+	   function settoppic_width(){
+			var top_pic1=document.getElementById("top_pic1");
+			top_pic1.style.width=window.screen.availWidth;
+	   }	
+	</script>
+</head>
+<body>
+<!-- 文档头部 -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+			    <img src="<?php echo("__PUBLIC__"); ?>/upload/icon/logo.png"></img>
+			</div>
+			<div class="col-md-4">
+				<form class="navbar-form navbar-right middle" role="search" style="margin-top:35px;">
+				    <span class="float_right"><a style="text-decoration: none;" href="{:U('Index/index')}"><strong>首 页</strong></a>&nbsp;|&nbsp;
+					                          <a style="text-decoration: none;text-size:13px;" href="{:U('Index/index')}"><strong>Home</strong></a></span><br />
+					<div class="form-group" style="margin-top:4px;">
+					  <input style="height:30px;" type="text" class="form-control" placeholder="请输入关键字">
+					  <button style="height:30px;" type="submit" class="btn btn-default"><span style="margin-left:-9x;" class="glyphicon glyphicon-search"></span></button>
+					</div>	
+				</form>
+			</div>
+		</div>
+	</div>
+<table style="margin: 0 auto;padding:0px;background-color:rgb(192,21,63);">
+     <tr style="padding:0px;background-color:rgb(192,21,63);">
+	     <td style="margin-top:-20px;padding:0;background-color:rgb(192,21,63);">
+         <ul class="nav nav-pills">
+            <!--<li><a href="{:U('Index/index')}">  首 页 </a></li>  -->
+            <li style="text-align:center;"><a href="{:U('CenterInstruction/index')}">中 心 概 况<br><small style="font-size:9px;">Introduction</small></a></li> 
+      		<li style="text-align:center;"><a href="{:U('Organization/index')}">组 织 架 构<br><small style="font-size:9px;">Organization</small></a></li>
+			<li style="text-align:center;"><a href="{:U('CommunityMembers/index')}">社 工 之 家<br><small style="font-size:9px;">Community Members</small></a></li>
+			<li style="text-align:center;"><a href="{:U('CentralDynamics/index')}">中 心 动 态<br><small style="font-size:9px;">Central Dynamics</small></a></li>
+			
+            <li style="text-align:center;"><a href="{:U('NewsCenter/home')}">新 闻 中 心<br><small style="font-size:9px;">News Press</small></a></li>			
+			<li style="text-align:center;"><a href="{:U('CooperationAgency/index')}">合 作 机 构<br><small style="font-size:8.5px;">Cooperate Agency</small></a></li>
+			<li style="text-align:center;" class="dropdown">
+				<a href="##" data-toggle="dropdown" class="dropdown-toggle">合 作 项 目<br><small style="font-size:9px;">Cooperate Project</small><span class="caret"></span></a>  
+					<ul class="dropdown-menu" style="margin-top:0px;background-color:rgb(192,21,63);">
+						<li><a href="{:U('ProgramGovernmentPurchase/index')}">政府购买项目<span class="sr-only">(current)</span></a></li>
+					    <li><a href="{:U('ProgramEnterpriseCooperation/index')}">企业委托项目</a></li>
+					    <li><a href="{:U('ProgramUniversityCooperation/index')}">高校合作项目</a></li>
+					    <li><a href="{:U('ProgramPublicService/index')}">公益服务项目</a></li>
+					</ul>
+			</li>
+			<li style="text-align:center;"><a href="{:U('BoutiqueItem/index')}">精 品 项 目<br><small style="font-size:9px;">Boutique Project</small></a></li>
+			<li style="text-align:center;"><a href="{:U('Recruitment/index')}">人 才 招 聘<br><small style="font-size:9px;">Recruitment</small></a></li>
+			<li style="text-align:center;"><a href="{:U('SpecialRecommendation/index')}">特 别 推 荐<br><small style="font-size:9px;">Recommendations</small></a></li>
+			<li style="text-align:center;"><a href="{:U('PublicMap/index')}">公 益 地 图<br><small style="font-size:9px;">Public Map</small></a></li>	 	
+</ul>
+</td></tr></table>	
+  <div class="container" style="background-color:#c0153f;border-width:1px;">
+		<div class="row" style="margin-top:0px;border-width:1px;">
+			<!-- 图片轮播 begin -->
+			<div id="myCarousel" class="carousel slide carousel_border">
+			   <!-- 轮播（Carousel）指标 -->
+			   <ol class="carousel-indicators">
+				  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				  <li data-target="#myCarousel" data-slide-to="1"></li>
+				  <li data-target="#myCarousel" data-slide-to="2"></li>
+			   </ol>   
+			   <!-- 轮播（Carousel）项目 -->
+			   <div class="carousel-inner">
+				  <div class="item active">
+					<center>
+					 <img style="height:230px;" src="__PUBLIC__/upload/icon/高校合作项目/tb1.jpg" alt="First slide">
+					</center>
+				  </div>
+				  <div class="item">
+					<center>
+					 <img style="height:230px;" src="__PUBLIC__/upload/icon/高校合作项目/tb1.jpg" alt="First slide">
+					 </center>
+				  </div>
+				  <div class="item">
+					<center>
+					 <img style="height:230px;" src="__PUBLIC__/upload/icon/高校合作项目/tb1.jpg" alt="First slide">
+					 </center>
+				  </div>
+			   </div>
+			   <!-- 轮播（Carousel）导航 -->
+			   <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+			   <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+			</div> 
+			<!-- 图片轮播 end -->            
+		</div>
+	</div>
+  <!-- 屏幕宽度小于768px时，div.navbar-responsive-collapse容器里的内容都会隐藏，显示icon-bar图标，当点击icon-bar图标时，再展开。屏幕大于768px时，默认显示。 -->
+  
+	<!-- <img align="center" src="__PUBLIC__/upload/icon/news.png">  --> 
+ 
+
+
+	<!--内容显示区域 -->
+	<div class="container" style="margin-top:0px;min-height:400px;background-color:white;">
+		<div class="row">
+			<div class="col-md-4" style="margin-top:20px;margin-left:-30px;">
+				<ul style="list-style:none;">
+					<li><a href="#"><img src="__PUBLIC__/upload/icon/news_nav.png"></a></li>
+				</ul>
+			</div>
+			<div class="col-md-1" style="margin-top:20px;">
+				
+			</div>
+			<div class="col-md-7">
+			   <h5 style="margin-top:20px;"><strong>高校合作项目</strong><small><span class="float_right"><a href="{:U('Index/index')}">首页</a> > 合作项目 > <a href="{:U('ProgramUniversityCooperation/index')}">高校合作项目</a></span></small></h5>
+				<hr></hr>         
+						<div role="tabpanel" class="tab-pane active" id="college-1140">
+							<!-- name指定的名字就是从model层拿过来的数据对象，item表示该对象的每一条信息  -->
+							<foreach name="model" item="v">  
+								<h5>
+								   <!-- 取title字段 -->
+								   <a alt=""  href="{:U('ProgramUniversityCooperation/contentdisplay?id=')}{$v.id}">{$v.title}</a>
+								   <!-- 取time字段的值 -->
+								   <small><span class="float_right">{$v.time|date="Y/m/d",###}</span></small>
+								</h5>
+							</foreach>
+						</div>                                                                                                                           
+			</div>
+		</div>
+	</div>
+<div class="container footer footer_style">
+       <!-- 底部说明 -->
+		<div class="container footer footer_style" style="margin-bottom:15px;height:40px;">
+			<div class="col-sm-12 text-left copyright-text">
+				<h5 style="display:inline-block;">地址：上海市杨浦区国权路525号&nbsp;&nbsp;电话：021-12345678&nbsp;&nbsp;邮箱：xxxx@xxxx.com</h5>	
+				<h5 style="display:inline-block;float:right;">All Rights Reserved 版权所有：仁宇社区</h5>        
+			</div>
+		</div>	
+	</div>
+</body>
+</html>

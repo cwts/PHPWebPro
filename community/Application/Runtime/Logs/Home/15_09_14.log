@@ -1,0 +1,18 @@
+[ 2015-09-14T18:33:55+08:00 ] ::1 /community2/index.php?m=&c=NewsCenter&a=contentdisplay&id=10
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 La table 'community.news_center' n'existe pas
+
+[ 2015-09-14T19:28:32+08:00 ] ::1 /community2/index.php?m=&c=NewsCenter&a=home
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'newscenter.id' inconnu dans order clause
+
+[ 2015-09-14T19:28:58+08:00 ] ::1 /community2/index.php?m=&c=NewsCenter&a=home
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'newscenter.id' inconnu dans order clause
+
+[ 2015-09-14T19:29:06+08:00 ] ::1 /community2/index.php?m=&c=NewsCenter&a=home
+ERR: SQLSTATE[42S22]: Column not found: 1054 Champ 'newscenter.id' inconnu dans order clause
+
+[ 2015-09-14T19:54:58+08:00 ] ::1 /community2/index.php?m=&c=SpecialRecommendation&a=contentdisplay&id=)
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de ') ) LIMIT 1' à la ligne 1
+
+[ 2015-09-14T20:58:04+08:00 ] ::1 /community2/index.php?m=&c=CommunityMembers&a=contentdisplay&id=
+ERR: 非法操作:contentdisplay
+

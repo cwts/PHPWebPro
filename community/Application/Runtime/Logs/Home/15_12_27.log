@@ -1,0 +1,105 @@
+[ 2015-12-27T11:56:29+08:00 ] 180.161.18.237 /index.php?m=&c=PublicMap&a=getPoint
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001701s ]
+SQL: SELECT * FROM `publicmap`  [ RunTime:0.0006s ]
+
+[ 2015-12-27T15:43:16+08:00 ] 180.161.18.237 /index.php?m=&c=PublicMap&a=getPoint
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002319s ]
+SQL: SELECT * FROM `publicmap`  [ RunTime:0.0468s ]
+
+[ 2015-12-27T15:45:53+08:00 ] 180.161.18.237 /index.php?m=&c=PublicMap&a=getPoint
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001418s ]
+SQL: SELECT * FROM `publicmap`  [ RunTime:0.0005s ]
+
+[ 2015-12-27T16:06:46+08:00 ] 180.161.18.237 /index.php?m=&c=PublicMap&a=getPoint
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001449s ]
+SQL: SELECT * FROM `publicmap`  [ RunTime:0.0005s ]
+
+[ 2015-12-27T16:07:58+08:00 ] 180.161.18.237 /index.php?m=&c=PublicMap&a=getPoint
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001521s ]
+SQL: SELECT * FROM `publicmap`  [ RunTime:0.0006s ]
+
+[ 2015-12-27T16:13:09+08:00 ] 180.161.18.237 /index.php?m=&c=PublicMap&a=getPoint
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001332s ]
+SQL: SELECT * FROM `publicmap`  [ RunTime:0.0006s ]
+
+[ 2015-12-27T16:15:34+08:00 ] 180.161.18.237 /index.php?m=&c=PublicMap&a=getPoint
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001995s ]
+SQL: SELECT * FROM `publicmap`  [ RunTime:0.0012s ]
+
+[ 2015-12-27T16:15:45+08:00 ] 222.66.175.213 /index.php?m=&c=PublicMap&a=getPoint
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001897s ]
+SQL: SELECT * FROM `publicmap`  [ RunTime:0.0006s ]
+
+[ 2015-12-27T16:19:01+08:00 ] 180.161.18.237 /index.php?m=&c=PublicMap&a=getPoint
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+SQL: SELECT * FROM `publicmap`  [ RunTime:0.0005s ]
+
+[ 2015-12-27T16:19:24+08:00 ] 180.161.18.237 /index.php?m=&c=PublicMap&a=getPoint
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001516s ]
+SQL: SELECT * FROM `publicmap`  [ RunTime:0.0005s ]
+
+[ 2015-12-27T16:19:30+08:00 ] 180.161.18.237 /index.php?m=&c=Publicmap&a=index
+ERR: 无法加载控制器:Publicmap
+
+[ 2015-12-27T16:19:34+08:00 ] 180.161.18.237 /index.php?m=&c=PublicMap&a=getPoint
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002495s ]
+SQL: SELECT * FROM `publicmap`  [ RunTime:0.0007s ]
+
+[ 2015-12-27T16:20:46+08:00 ] 180.161.18.237 /index.php?m=&c=PublicMap&a=getPoint
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001555s ]
+SQL: SELECT * FROM `publicmap`  [ RunTime:0.0006s ]
+
+[ 2015-12-27T16:25:03+08:00 ] 222.66.175.213 /index.php?m=&c=PublicMap&a=getPoint
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001343s ]
+SQL: SELECT * FROM `publicmap`  [ RunTime:0.0006s ]
+
+[ 2015-12-27T16:25:49+08:00 ] 222.66.175.213 /index.php?m=&c=PublicMap&a=getPoint
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001334s ]
+SQL: SELECT * FROM `publicmap`  [ RunTime:0.0006s ]
+
+[ 2015-12-27T16:26:04+08:00 ] 222.66.175.213 /index.php?m=&c=PublicMap&a=getPoint
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001699s ]
+SQL: SELECT * FROM `publicmap`  [ RunTime:0.0006s ]
+
+[ 2015-12-27T16:26:18+08:00 ] 222.66.175.213 /index.php?m=&c=PublicMap&a=getPoint
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001536s ]
+SQL: SELECT * FROM `publicmap`  [ RunTime:0.0006s ]
+
+[ 2015-12-27T16:26:29+08:00 ] 222.66.175.213 /index.php?m=&c=PublicMap&a=getPoint
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001388s ]
+SQL: SELECT * FROM `publicmap`  [ RunTime:0.0005s ]
+
